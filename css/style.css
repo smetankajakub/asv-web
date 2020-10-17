@@ -1,0 +1,44 @@
+body{
+    background-color: #919191;
+    color: #fff
+    /* margin: 10%;
+    padding: 10%; */
+}
+img{
+    opacity: 50%;
+}
+
+#pr1{
+    position: absolute;
+    z-index: 5;
+    top: 150;
+    right: 100;
+}
+#pr2{
+    position: absolute;
+    z-index: 5;
+    top: 200;
+    right: 300;
+}
+#pr3{
+    position: absolute;
+    z-index: 5;
+    top: 230;
+    right: 300;
+}
+#pr4{
+    position: absolute;
+    z-index: 5;
+    top: 110;
+    right: 300;
+}
+#pr5{
+    position: absolute;
+    z-index: 5;
+    top: 400;
+    right: 200;
+}
+#list{
+    max-height:120px;
+    overflow-y: scroll;
+}
