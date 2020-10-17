@@ -1,5 +1,5 @@
 body{
-    background-color: #919191;
+    background-color: #6f6f6f;
     color: #fff
     /* margin: 10%;
     padding: 10%; */
@@ -21,10 +21,14 @@ div .map{
 }
 .pin{
     position:absolute;
-    width:15px;
-    height:15px;
-    border:1px solid
-    
+    width:3%;
+    height:4%;
+    border: solid 1px white;
+    background-size: 3% 4%;
+    background-image: url("/images/pin.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+
 }
 #pr1{
     top: 20%;
@@ -49,6 +53,9 @@ div .map{
     right: 18%;
 }
 #list{
-    max-height:120px;
+    max-height:250px;
     overflow-y: scroll;
+}
+#list div:nth-child(odd){
+background-color: #6f6f6f;
 }
