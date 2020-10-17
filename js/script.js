@@ -31,7 +31,7 @@ $(document).ready(function(){
         $('#pr2').fadeOut(1);
         $('#pr3').fadeOut(1);  
         $('#pr5').fadeOut(1);
-    } else if( y > 4*115 && y < 5*115){
+    } else if( y > 4*110 && y < 5*115){
         $('#pr5').fadeIn(800);
         $('#pr1').fadeOut(1);
         $('#pr2').fadeOut(1);

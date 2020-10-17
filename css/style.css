@@ -4,39 +4,49 @@ body{
     /* margin: 10%;
     padding: 10%; */
 }
+/* div{
+    position: relative;
+} */
 img{
     opacity: 50%;
+    display: block;
+    width:100%;
+}
+.map{
+    position: relative;
+}
+div .map{
+    max-width:100%;
+    display: block;
+}
+.pin{
+    position:absolute;
+    width:15px;
+    height:15px;
+    border:1px solid
+    
+}
+#pr1{
+    top: 20%;
+    right: 50%;
 }
 
-#pr1{
-    position: absolute;
-    z-index: 5;
-    top: 150;
-    right: 100;
-}
 #pr2{
-    position: absolute;
-    z-index: 5;
-    top: 200;
-    right: 300;
+    top: 30%;
+    right: 55%;
 }
 #pr3{
-    position: absolute;
-    z-index: 5;
-    top: 230;
-    right: 300;
+
+    top: 40%;
+    right: 33%;
 }
 #pr4{
-    position: absolute;
-    z-index: 5;
-    top: 110;
-    right: 300;
+    top: 85%;
+    right: 23%;
 }
 #pr5{
-    position: absolute;
-    z-index: 5;
-    top: 400;
-    right: 200;
+    top: 10%;
+    right: 18%;
 }
 #list{
     max-height:120px;
